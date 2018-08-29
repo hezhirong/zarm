@@ -169,10 +169,13 @@ export default {
   swipe_pagination_dot_size: 8,
 
   // Switch
-  switch_width: 53,
+  switch_width: 54,
   switch_height: 32,
   switch_border_color: '#e5e5e5',
   switch_background: '#fff',
+  circle_in_active_size: 29,
+  circle_in_active_shadow_color: 'rgba(0,0,0,0.2)',
+  circle_active_shadow_color: 'rgba(0,127,84,1)',
 
   // SwipeAction
   swipe_action_height: 45,

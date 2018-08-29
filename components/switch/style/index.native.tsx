@@ -15,30 +15,28 @@ export default {
   wrapperInActive: {
     borderWidth:  3 /  PixelRatio.get(),
     borderColor: variables.switch_border_color,
-    backgroundColor: '#ffffff',
+    backgroundColor: variables.switch_background,
   },
   wrapperActive: {
     borderWidth: 0,
-    backgroundColor: '#12C287',
+    backgroundColor: variables.theme_success,
   },
   circleStyle: {
-    width: 29,
-    height: 29,
-    borderRadius: 15,
-    backgroundColor: '#ffffff',
+    width: variables.circle_in_active_size,
+    height: variables.circle_in_active_size,
+    borderRadius: variables.circle_in_active_size / 2,
+    backgroundColor: variables.switch_background,
   },
   circleInActive: {
     shadowOffset: { width: 0, height: 0 },
     shadowOpacity: 1,
     shadowRadius: 4,
-    shadowColor: 'rgba(0,0,0,0.2)',
+    shadowColor: variables.circle_in_active_shadow_color,
   },
   circleActive: {
-    width: 28,
-    height: 27,
     shadowOffset: { width: 0, height: 0 },
     shadowOpacity: 1,
     shadowRadius: 2,
-    shadowColor: 'rgba(0,127,84,1)',
+    shadowColor: variables.circle_active_shadow_color,
   },
 };
